@@ -16,6 +16,7 @@ const babelLoader = {
     loader: 'babel-loader',
     options: {
       presets: ['env', 'react'],
+      plugins: ['transform-class-properties'],
     },
   },
 };
